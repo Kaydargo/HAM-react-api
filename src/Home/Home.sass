@@ -1,0 +1,30 @@
+#desktop-only
+    display         : block
+    background      : no-repeat linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../Images/HAM.jpg")
+    background-size : cover
+    color           : #eff2f6
+    height          : 100vh
+    
+
+@media screen and (max-width: 500px) 
+    #desktop-only 
+        display : none 
+
+.card
+    width         : 100%
+    margin-right  : 2rem
+    margin-bottom : 2rem
+
+    .card-img-top
+        padding   : 1rem
+
+    .card-text
+        padding   : 0rem
+
+    .card-body
+        padding   : 1rem
+        color     : #17171f
+
+        h2 > span
+            color       : #d6201f
+            font-weight : 800
